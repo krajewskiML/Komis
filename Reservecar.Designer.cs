@@ -58,18 +58,20 @@
             // BrandLabel
             // 
             this.BrandLabel.AutoSize = true;
+            this.BrandLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BrandLabel.Location = new System.Drawing.Point(43, 53);
             this.BrandLabel.Name = "BrandLabel";
-            this.BrandLabel.Size = new System.Drawing.Size(35, 13);
+            this.BrandLabel.Size = new System.Drawing.Size(60, 24);
             this.BrandLabel.TabIndex = 2;
             this.BrandLabel.Text = "Brand";
             // 
             // ModelLabel
             // 
             this.ModelLabel.AutoSize = true;
+            this.ModelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ModelLabel.Location = new System.Drawing.Point(201, 52);
             this.ModelLabel.Name = "ModelLabel";
-            this.ModelLabel.Size = new System.Drawing.Size(36, 13);
+            this.ModelLabel.Size = new System.Drawing.Size(63, 24);
             this.ModelLabel.TabIndex = 3;
             this.ModelLabel.Text = "Model";
             // 
@@ -94,18 +96,20 @@
             // EngineLabel
             // 
             this.EngineLabel.AutoSize = true;
+            this.EngineLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EngineLabel.Location = new System.Drawing.Point(43, 155);
             this.EngineLabel.Name = "EngineLabel";
-            this.EngineLabel.Size = new System.Drawing.Size(40, 13);
+            this.EngineLabel.Size = new System.Drawing.Size(71, 24);
             this.EngineLabel.TabIndex = 6;
             this.EngineLabel.Text = "Engine";
             // 
             // ColorLabel
             // 
             this.ColorLabel.AutoSize = true;
+            this.ColorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ColorLabel.Location = new System.Drawing.Point(204, 154);
             this.ColorLabel.Name = "ColorLabel";
-            this.ColorLabel.Size = new System.Drawing.Size(31, 13);
+            this.ColorLabel.Size = new System.Drawing.Size(55, 24);
             this.ColorLabel.TabIndex = 7;
             this.ColorLabel.Text = "Color";
             // 
@@ -129,17 +133,19 @@
             // CarPreviewLabel
             // 
             this.CarPreviewLabel.AutoSize = true;
+            this.CarPreviewLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CarPreviewLabel.Location = new System.Drawing.Point(43, 258);
             this.CarPreviewLabel.Name = "CarPreviewLabel";
-            this.CarPreviewLabel.Size = new System.Drawing.Size(64, 13);
+            this.CarPreviewLabel.Size = new System.Drawing.Size(111, 24);
             this.CarPreviewLabel.TabIndex = 10;
             this.CarPreviewLabel.Text = "Car Preview";
             // 
             // ReserveButton
             // 
-            this.ReserveButton.Location = new System.Drawing.Point(518, 415);
+            this.ReserveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReserveButton.Location = new System.Drawing.Point(518, 404);
             this.ReserveButton.Name = "ReserveButton";
-            this.ReserveButton.Size = new System.Drawing.Size(75, 23);
+            this.ReserveButton.Size = new System.Drawing.Size(100, 34);
             this.ReserveButton.TabIndex = 11;
             this.ReserveButton.Text = "Reserve";
             this.ReserveButton.UseVisualStyleBackColor = true;
@@ -161,9 +167,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(518, 281);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(521, 273);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.Size = new System.Drawing.Size(97, 24);
             this.label1.TabIndex = 14;
             this.label1.Text = "Username";
             // 

@@ -15,6 +15,7 @@ namespace Komis
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private void AddCarButton_Click(object sender, EventArgs e)

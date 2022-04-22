@@ -138,9 +138,7 @@
   <ItemGroup>
     <None Include="owned_cars.csv" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CarPictures\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="reservations.csv" />
   </ItemGroup>

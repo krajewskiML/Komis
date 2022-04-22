@@ -44,43 +44,47 @@
             // BrandLabel
             // 
             this.BrandLabel.AutoSize = true;
+            this.BrandLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BrandLabel.Location = new System.Drawing.Point(55, 50);
             this.BrandLabel.Name = "BrandLabel";
-            this.BrandLabel.Size = new System.Drawing.Size(35, 13);
+            this.BrandLabel.Size = new System.Drawing.Size(60, 24);
             this.BrandLabel.TabIndex = 5;
             this.BrandLabel.Text = "Brand";
             // 
             // ModelLabel
             // 
             this.ModelLabel.AutoSize = true;
+            this.ModelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ModelLabel.Location = new System.Drawing.Point(199, 50);
             this.ModelLabel.Name = "ModelLabel";
-            this.ModelLabel.Size = new System.Drawing.Size(36, 13);
+            this.ModelLabel.Size = new System.Drawing.Size(63, 24);
             this.ModelLabel.TabIndex = 6;
             this.ModelLabel.Text = "Model";
             // 
             // EngineLabel
             // 
             this.EngineLabel.AutoSize = true;
+            this.EngineLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EngineLabel.Location = new System.Drawing.Point(335, 50);
             this.EngineLabel.Name = "EngineLabel";
-            this.EngineLabel.Size = new System.Drawing.Size(40, 13);
+            this.EngineLabel.Size = new System.Drawing.Size(71, 24);
             this.EngineLabel.TabIndex = 7;
             this.EngineLabel.Text = "Engine";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(487, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 13);
+            this.label1.Size = new System.Drawing.Size(55, 24);
             this.label1.TabIndex = 12;
             this.label1.Text = "Color";
             // 
             // BrandComboBox
             // 
             this.BrandComboBox.FormattingEnabled = true;
-            this.BrandComboBox.Location = new System.Drawing.Point(58, 121);
+            this.BrandComboBox.Location = new System.Drawing.Point(59, 86);
             this.BrandComboBox.Name = "BrandComboBox";
             this.BrandComboBox.Size = new System.Drawing.Size(121, 21);
             this.BrandComboBox.TabIndex = 12;
@@ -89,7 +93,7 @@
             // ModelComboBox
             // 
             this.ModelComboBox.FormattingEnabled = true;
-            this.ModelComboBox.Location = new System.Drawing.Point(202, 121);
+            this.ModelComboBox.Location = new System.Drawing.Point(203, 86);
             this.ModelComboBox.Name = "ModelComboBox";
             this.ModelComboBox.Size = new System.Drawing.Size(121, 21);
             this.ModelComboBox.TabIndex = 12;
@@ -98,7 +102,7 @@
             // EngineComboBox
             // 
             this.EngineComboBox.FormattingEnabled = true;
-            this.EngineComboBox.Location = new System.Drawing.Point(338, 121);
+            this.EngineComboBox.Location = new System.Drawing.Point(339, 86);
             this.EngineComboBox.Name = "EngineComboBox";
             this.EngineComboBox.Size = new System.Drawing.Size(121, 21);
             this.EngineComboBox.TabIndex = 12;
@@ -107,7 +111,7 @@
             // ColorComboBox
             // 
             this.ColorComboBox.FormattingEnabled = true;
-            this.ColorComboBox.Location = new System.Drawing.Point(490, 121);
+            this.ColorComboBox.Location = new System.Drawing.Point(490, 86);
             this.ColorComboBox.Name = "ColorComboBox";
             this.ColorComboBox.Size = new System.Drawing.Size(121, 21);
             this.ColorComboBox.TabIndex = 12;
@@ -116,18 +120,19 @@
             // ViewCarBox
             // 
             this.ViewCarBox.BackColor = System.Drawing.SystemColors.Window;
-            this.ViewCarBox.Location = new System.Drawing.Point(58, 204);
+            this.ViewCarBox.Location = new System.Drawing.Point(59, 170);
             this.ViewCarBox.Name = "ViewCarBox";
-            this.ViewCarBox.Size = new System.Drawing.Size(553, 210);
+            this.ViewCarBox.Size = new System.Drawing.Size(265, 210);
             this.ViewCarBox.TabIndex = 12;
             this.ViewCarBox.TabStop = false;
             // 
             // PictureOverviewLabel
             // 
             this.PictureOverviewLabel.AutoSize = true;
-            this.PictureOverviewLabel.Location = new System.Drawing.Point(66, 169);
+            this.PictureOverviewLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PictureOverviewLabel.Location = new System.Drawing.Point(57, 126);
             this.PictureOverviewLabel.Name = "PictureOverviewLabel";
-            this.PictureOverviewLabel.Size = new System.Drawing.Size(71, 13);
+            this.PictureOverviewLabel.Size = new System.Drawing.Size(123, 24);
             this.PictureOverviewLabel.TabIndex = 13;
             this.PictureOverviewLabel.Text = "Car Overview";
             // 

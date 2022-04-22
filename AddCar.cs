@@ -222,8 +222,16 @@ namespace Komis
                     csv.WriteRecords(records);
                 }
                 var pictureFolder = Path.Combine( projectDirectory, "CarPictures");
+                if (!Directory.Exists(pictureFolder))
+                {
+                    Directory.CreateDirectory(pictureFolder);
+                }
                 var picturePath = Path.Combine(pictureFolder, "Picture" + newCar.Id.ToString() + ".png");
                 File.Copy(pathToCurrentPicture, picturePath, true);
+
+                MessageBoxButtons button = MessageBoxButtons.OK;
+                DialogResult result;
+                result = MessageBox.Show("You have properly added a car to a dealership", "", button);
             }
             else
             {

@@ -40,6 +40,7 @@
             this.AddCarButton = new System.Windows.Forms.Button();
             this.CancelAddingButton = new System.Windows.Forms.Button();
             this.ResetButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.AddPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,36 +82,40 @@
             // BrandLabel
             // 
             this.BrandLabel.AutoSize = true;
+            this.BrandLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BrandLabel.Location = new System.Drawing.Point(45, 58);
             this.BrandLabel.Name = "BrandLabel";
-            this.BrandLabel.Size = new System.Drawing.Size(35, 13);
+            this.BrandLabel.Size = new System.Drawing.Size(60, 24);
             this.BrandLabel.TabIndex = 4;
             this.BrandLabel.Text = "Brand";
             // 
             // ModelLabel
             // 
             this.ModelLabel.AutoSize = true;
+            this.ModelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ModelLabel.Location = new System.Drawing.Point(256, 58);
             this.ModelLabel.Name = "ModelLabel";
-            this.ModelLabel.Size = new System.Drawing.Size(36, 13);
+            this.ModelLabel.Size = new System.Drawing.Size(63, 24);
             this.ModelLabel.TabIndex = 5;
             this.ModelLabel.Text = "Model";
             // 
             // EngineLabel
             // 
             this.EngineLabel.AutoSize = true;
+            this.EngineLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EngineLabel.Location = new System.Drawing.Point(462, 58);
             this.EngineLabel.Name = "EngineLabel";
-            this.EngineLabel.Size = new System.Drawing.Size(40, 13);
+            this.EngineLabel.Size = new System.Drawing.Size(71, 24);
             this.EngineLabel.TabIndex = 6;
             this.EngineLabel.Text = "Engine";
             // 
             // ColorLabel
             // 
             this.ColorLabel.AutoSize = true;
+            this.ColorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ColorLabel.Location = new System.Drawing.Point(692, 58);
             this.ColorLabel.Name = "ColorLabel";
-            this.ColorLabel.Size = new System.Drawing.Size(31, 13);
+            this.ColorLabel.Size = new System.Drawing.Size(55, 24);
             this.ColorLabel.TabIndex = 7;
             this.ColorLabel.Text = "Color";
             // 
@@ -127,9 +132,10 @@
             // 
             // AddCarButton
             // 
+            this.AddCarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddCarButton.Location = new System.Drawing.Point(692, 295);
             this.AddCarButton.Name = "AddCarButton";
-            this.AddCarButton.Size = new System.Drawing.Size(75, 23);
+            this.AddCarButton.Size = new System.Drawing.Size(90, 32);
             this.AddCarButton.TabIndex = 9;
             this.AddCarButton.Text = "Add car";
             this.AddCarButton.UseVisualStyleBackColor = true;
@@ -137,9 +143,10 @@
             // 
             // CancelAddingButton
             // 
+            this.CancelAddingButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelAddingButton.Location = new System.Drawing.Point(48, 200);
             this.CancelAddingButton.Name = "CancelAddingButton";
-            this.CancelAddingButton.Size = new System.Drawing.Size(75, 23);
+            this.CancelAddingButton.Size = new System.Drawing.Size(82, 33);
             this.CancelAddingButton.TabIndex = 10;
             this.CancelAddingButton.Text = "Cancel ";
             this.CancelAddingButton.UseVisualStyleBackColor = true;
@@ -147,19 +154,32 @@
             // 
             // ResetButton
             // 
-            this.ResetButton.Location = new System.Drawing.Point(48, 386);
+            this.ResetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetButton.Location = new System.Drawing.Point(48, 371);
             this.ResetButton.Name = "ResetButton";
-            this.ResetButton.Size = new System.Drawing.Size(75, 23);
+            this.ResetButton.Size = new System.Drawing.Size(82, 38);
             this.ResetButton.TabIndex = 11;
             this.ResetButton.Text = "Reset";
             this.ResetButton.UseVisualStyleBackColor = true;
             this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(252, 173);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label1.Size = new System.Drawing.Size(250, 24);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Drop picture of your car here";
             // 
             // AddCar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(879, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.ResetButton);
             this.Controls.Add(this.CancelAddingButton);
             this.Controls.Add(this.AddCarButton);
@@ -195,5 +215,6 @@
         private System.Windows.Forms.Button AddCarButton;
         private System.Windows.Forms.Button CancelAddingButton;
         private System.Windows.Forms.Button ResetButton;
+        private System.Windows.Forms.Label label1;
     }
 }
